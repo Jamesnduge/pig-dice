@@ -50,8 +50,8 @@ Player.prototype.newGame = function () {
 }
 
 var clearValues = function(){
-  $(".player1Name").val("");
-  $(".player2Name").val("");
+  $(".nameOne").val("");
+  $(".nameTwo").val("");
 }
 
      //User Interface//
@@ -63,14 +63,14 @@ $(document).ready(function() {
     $(".player-console").show();
     $(".start-menu").hide();
 
-    var player1Name = $(".player1Name").val();
-    $("#player1Name").text(player1Name);
+    var nameOne = $(".nameOne").val();
+    $("#nameOne").text(nameOne);
 
-    var player2Name = $(".player2Name").val();
-    $("#player2Name").text(player2Name);
+    var nameTwo = $(".nameTwo").val();
+    $("#nameTwo").text(nameTwo);
 
-    player1.playerName=player1Name;
-    player2.playerName=player2Name;
+    player1.playerName=nameOne;
+    player2.playerName=nameTwo;
 
   });
   $("button#new-game").click(function(event){

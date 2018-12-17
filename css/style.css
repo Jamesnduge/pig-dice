@@ -1,4 +1,25 @@
 
 body{
-  background-image: url(bg.jpeg);
+  background-image: url(dicebg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.form-group label{
+  color: firebrick;
+}
+.row{
+  color: sienna;
+}
+#die-roll-1, #die-roll-2{
+  color: white;
+}
+#nameOne, #nameTwo{
+  color: white;
+}
+#round-total-1, #round-total-2{
+  color: white;
+}
+#total-score-1, #total-score-2{
+  color: white;
 }
