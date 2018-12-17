@@ -36,7 +36,6 @@ Player.prototype.hold = function () {
   this.totalscore += this.tempscore;
   this.tempscore = 0;
 
-  alert(this.playerName + ", Your turn is over, next Player");
 }
 
      // check for 100 - The first player to reach 100 wins!//
